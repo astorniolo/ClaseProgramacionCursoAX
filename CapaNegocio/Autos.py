@@ -14,7 +14,7 @@ class Auto(Database):
 
         self.cursor.execute(sql)
         return self.cursor.fetchone()
-      
+      ####comentario para probar el git
     def getTodos(self):
         sql="SELECT * FROM aseguradora.auto"
         
