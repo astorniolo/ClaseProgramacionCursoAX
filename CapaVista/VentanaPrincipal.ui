@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaPrincipal</class>
+ <widget class="QMainWindow" name="VentanaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de Gestión de Seguros ZANGARITA SRL</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>566</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuCRUD_Autos">
+    <property name="title">
+     <string>CRUD Autos</string>
+    </property>
+    <addaction name="actionAutos"/>
+   </widget>
+   <widget class="QMenu" name="menuCRUD_Personas">
+    <property name="title">
+     <string>CRUD Personas</string>
+    </property>
+    <addaction name="actionPersonas"/>
+    <addaction name="separator"/>
+    <addaction name="actionSiniestros"/>
+   </widget>
+   <widget class="QMenu" name="menuCRUD_Accidentes">
+    <property name="title">
+     <string>CRUD Accidentes</string>
+    </property>
+    <addaction name="actionAccidentes"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuCRUD_Autos"/>
+   <addaction name="menuCRUD_Personas"/>
+   <addaction name="menuCRUD_Accidentes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionAutos">
+   <property name="text">
+    <string>Autos</string>
+   </property>
+  </action>
+  <action name="actionPersonas">
+   <property name="text">
+    <string>Personas</string>
+   </property>
+  </action>
+  <action name="actionInformes">
+   <property name="text">
+    <string>Informes</string>
+   </property>
+  </action>
+  <action name="actionSiniestros">
+   <property name="text">
+    <string>Siniestros</string>
+   </property>
+  </action>
+  <action name="actionAccidentes">
+   <property name="text">
+    <string>Accidentes</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
