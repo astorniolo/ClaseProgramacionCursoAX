@@ -17,7 +17,7 @@ class Auto(Database):
       
     def getTodos(self):
         sql="SELECT * FROM aseguradora.auto"
-        
+        #prueba de un comentario
 
         self.cursor.execute(sql)
         return self.cursor.fetchall()   
